@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.20)
+project(First_List_LinkedList)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(First_List_LinkedList
+    main.cpp
+    Book.cpp
+    Book.h
+    Inventory.cpp
+    Inventory.h
+)
